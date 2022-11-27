@@ -1,0 +1,605 @@
+<html>
+    <head>
+        <link  href="css/all.css" rel="stylesheet"/>
+        <link  href="css/bootstrap.css" rel="stylesheet"/>
+        <script src="js/bootstrap.bundle.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            .text-bg-mycolor
+            {
+                background: linear-gradient(60deg,red,orange )!important;
+                color: white !important;
+            }
+            .s
+            {
+                height: 30px;
+                width: 30px;
+                border: 1px solid white;
+                border-radius: 1px;
+                line-height: 30px;
+                background-color:white ;
+                color: red;
+            }
+            .s:hover{
+                transform: rotate(360deg);
+                transition: all ease 1s;
+                background: transparent;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container-fluid">
+
+      <div class="row top text-bg-mycolor text-center py-1"> 
+       <div class="col-sm-3">
+        <i class="fa-solid fa-phone"></i>
+        +91-7408826672
+       </div>
+       <div class="col-sm-3">
+        <i class="fa-solid fa-house"></i>
+        akashlmp7408@gmail.com
+       </div>
+       <div class="col-sm-3">
+        An ISO Certified company
+       </div>
+       <div class="col-sm-3">
+        <i class="fa-brands fa-youtube s"></i>
+        <i class="fa-brands fa-whatsapp s"></i>
+        <i class="fa-brands fa-instagram s"></i>
+        <i class="fa-brands fa-twitter s"></i>
+       </div>
+       <div class="col-sm-3"></div>  
+    </div>
+        <div class="row header sticky-top bg-light">
+            <div class="col-sm-3 logo text-center fs-2 py-1">
+                E-<b class="text-danger">CARt</b>
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class=" col-sm-9 menu ">
+    <!-- start Menu-->
+              
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="fa-solid fa-house"></i>
+                                Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="file:///D:/BOOTSTRAP/Register%20with%20Us.html">Register</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="order.html">My Orders</a>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Product
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">MEN'S</a></li>
+                              <li><a class="dropdown-item" href="#">WOMEN'S</a></li>
+                              <li><a class="dropdown-item"
+                                 href="file:///D:/BOOT/Kids.html">KID'S</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="file:///D:/BOOTSTRAP/contact%20us%20form.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link "href="file:///D:/BOOT/form2.html">Login</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn text-bg-mycolor" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+
+     <!-- End Menu-->
+            </div>
+        </div>
+        <div class="row slider">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+               class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="2" aria-label="Slide 3"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slider3.jpg" class="d-block w-100" alt="jfjefj...">
+               
+              </div>
+              <div class="carousel-item"data-bs-interval="100">
+                <img src="images/slider4.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="images/slider8.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+              
+              <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/slider9.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+          
+
+        
+        <div class="row services"></div>
+        <div class="row content"></div>
+
+        <div class="row category">
+          <div class="container pt-5">
+          
+        <div class="row">
+            <!-- start card-->
+            <div class="col-sm-4">
+                <div class="card bg-light">
+                  
+              <img src="images/banner-1.jpg" class="img-card-top"/>
+              
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card bg-light">
+              <img src="images/banner-2.jpg" class="img-card-top"/>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card bg-light">
+              <img src="images/banner-3.jpg" class="img-card-top"/>
+             
+                </div>
+            </div>
+
+            
+            
+            <!-- End card -->
+        </div>
+        </div>
+         </div> 
+
+       <div class="row product">
+        <div class="container pt-5">
+        <div class="row">
+          <div class="col-sm-12 fs-3 text-center">
+              Our <b class="text-danger"> Product <i class="fa-solid fa-cart-shopping"></i></b>
+          </div>
+      </div>
+      <div class="row">
+        <!-- start card-->
+        <div class="col-sm-3">
+            <div class="card bg-light">
+          <img src="images/w2.jpg" class="img-card-top">
+          <div class="card-body">
+            <div class="card-title fw-bold fs-3">
+                Womens Kurti
+            </div>
+            <div class="card-text">
+                <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+                <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+                <p>This is a Very Awessome product</p>
+                <span class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br/>
+                <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="btn btn-outline-danger ">Order Now</span>
+               <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+            </div>
+          </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card bg-light">
+        <img src="images/sari3.jpg" class="img-card-top pt-4">
+        <div class="card-body">
+          <div class="card-title fw-bold fs-3 pt-5">
+              Womens Sari
+          </div>
+          <div class="card-text">
+              <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+              <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+              <p>This is a Very Awesome food</p>
+              <span class="rating">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </span><br/>
+              <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+              <span class="btn btn-outline-danger ">Order Now</span>
+             <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+          </div>
+        </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card bg-light">
+      <img src="images/menss.jpeg" class="img-card-top">
+      <div class="card-body">
+        <div class="card-title fw-bold fs-3">
+            Man Shirt
+        </div>
+        <div class="card-text">
+            <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+            <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+            
+            <span class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span><br/>
+            <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="btn btn-outline-danger ">Order Now</span>
+           <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+        </div>
+      </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card bg-light">
+    <img src="images/w6.jpg" class="img-card-top">
+    <div class="card-body">
+      <div class="card-title fw-bold fs-3">
+          Womens Kurti
+      </div>
+      <div class="card-text">
+          <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+          <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+          
+          <span class="rating">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </span><br/>
+          <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+          <span class="btn btn-outline-danger ">Order Now</span>
+         <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+      </div>
+    </div>
+      </div>
+  </div>
+
+  <div class="col-sm-3">
+    <div class="card bg-light">
+  <img src="images/wt3.jpeg" class="img-card-top">
+  <div class="card-body">
+    <div class="card-title fw-bold fs-3">
+        Girls Top
+    </div>
+    <div class="card-text">
+        <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+        <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+       
+        <span class="rating">
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </span><br/>
+        <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+        <span class="btn btn-outline-danger ">Order Now</span>
+       <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+    </div>
+  </div>
+    </div>
+</div>
+
+<div class="col-sm-3">
+  <div class="card bg-light">
+<img src="images/mt3.jpg" class="img-card-top">
+<div class="card-body">
+  <div class="card-title fw-bold fs-3">
+      man t-shirt
+  </div>
+  <div class="card-text">
+      <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+      <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+      
+      <span class="rating">
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star text-warning"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+      </span><br/>
+      <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+      <span class="btn btn-outline-danger ">Order Now</span>
+     <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+  </div>
+</div>
+  </div>
+</div>
+
+        <div class="col-sm-3">
+            <div class="card bg-light">
+          <img src="images/wj3.jpg" class="img-card-top">
+          <div class="card-body">
+            <div class="card-title fw-bold fs-3">
+                man jeans
+            </div>
+            <div class="card-text">
+                <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+                <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+                
+                <span class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br/>
+                <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="btn btn-outline-danger ">Order Now</span>
+               <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+            </div>
+          </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card bg-light">
+        <img src="images/mt5.jpg" class="img-card-top">
+        <div class="card-body">
+          <div class="card-title fw-bold fs-3">
+            Man T-Shirt
+          </div>
+          <div class="card-text">
+              <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+              <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+              
+              <span class="rating">
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+              </span><br/>
+              <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+              <span class="btn btn-outline-danger ">Order Now</span>
+             <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+          </div>
+        </div>
+          </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card bg-light">
+      <img src="images/mj6.jpg" class="img-card-top">
+      <div class="card-body">
+        <div class="card-title fw-bold fs-3">
+            Jeans
+        </div>
+        <div class="card-text">
+            <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+            <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+            
+            <span class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </span><br/>
+            <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="btn btn-outline-danger ">Order Now</span>
+           <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+        </div>
+      </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card bg-light">
+    <img src="images/kk2.jpeg" class="img-card-top">
+    <div class="card-body">
+      <div class="card-title fw-bold fs-3">
+          kids wear
+      </div>
+      <div class="card-text">
+          <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+          <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+          
+          <span class="rating">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+          </span><br/>
+          <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+          <span class="btn btn-outline-danger ">Order Now</span>
+         <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+      </div>
+    </div>
+      </div>
+  </div>
+
+  <div class="col-sm-3">
+    <div class="card bg-light">
+  <img src="images/kk5.jpeg" class="img-card-top">
+  <div class="card-body">
+    <div class="card-title fw-bold fs-3">
+        crazy kids
+    </div>
+    <div class="card-text">
+        <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+        <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+        
+        <span class="rating">
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </span><br/>
+        <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+        <span class="btn btn-outline-danger ">Order Now</span>
+       <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+    </div>
+  </div>
+    </div>
+</div>
+
+        <div class="col-sm-3">
+            <div class="card bg-light">
+          <img src="images/kk4.jpeg" class="img-card-top">
+          <div class="card-body">
+            <div class="card-title fw-bold fs-3">
+                kids fashion
+            </div>
+            <div class="card-text">
+                <b>Price :<i class="fa-solid fa-indian-rupee-sign"></i></b>
+                <S class="text-danger">699</S>- <b class="text-success">499/-</b> 
+                
+                <span class="rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </span><br/>
+                <span class="btn btn-outline-danger ">Cart <i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="btn btn-outline-danger ">Order Now</span>
+               <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+            </div>
+          </div>
+            </div>
+        </div>
+          
+          <!-- End card -->
+      </div>
+      </div>
+       </div>
+        <div class="row gallery">
+          <div class="container text-center pt-5">
+            <b class="fs-1" > BIG</b><b class="text-Success fs-1 "> SELL!</b>
+            <div class="row border border-3 p-3">
+                
+                    <div class="col-sm-6 ">
+                        <img src="images/bigsale1.jpeg" class="img-fluid rounded-start ">
+                    </div>
+                    <div class="col-sm-6 text-center pt-5">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h1 class="text-success">50% less in all items</h1>
+                            </div>
+                            <div class="card-text"> 
+                                <p>New arivals, New collaction.<br/>Flat 50% off in every item you buy from 
+                                Study with Akku <br/>Offer valid for 5 days only.<br/>HURRY UP</p>
+                                <span class="rating">
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star text-warning"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </span><br/>
+                                <a href="order.html"><span class="btn btn-outline-danger ">Cart 
+                                  <i class="fa-solid fa-cart-shopping"></i></span></a>
+                                <a href="product.html"><span class="btn btn-outline-danger ">Order Now</span></a>
+                               <p class="fs-6 text-muted">Added Date : <i>21/11/2022</i></p>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        </div>
+        <br/>
+        <h3 class="text-center fs-1 ">OUR <span class="text-success">SERVICES</span></h3>
+        <div class="row services pt-3">
+       <br/>
+        <div class="col-sm-4 text-center bg-light">
+          <i class="fa-solid fa-truck fs-1 text-success"></i>
+          <h4>FREE SHIPPING</h4><p>For all order 2000</p>
+          
+        
+       </div> 
+       
+       <div class="col-sm-4 text-center bg-light">
+        <i class="fa-solid fa-clock fs-1 text-success"></i>
+        <h4>DELIVERY ON TIME</h4><p>Fastest Delivery at doorstep</p>
+        
+      
+     </div> 
+     <div class="col-sm-4 text-center bg-light">
+      <i class="fa-solid fa-lock fs-1 text-success"></i>
+      <h4>SECURE PAYMENT</h4><p>100% secure payment</p>
+      
+    
+   </div> 
+        </div><br/>
+        <div class="row ufooter bg-dark text-white pt-4 text-center">
+        <div class="col-sm-4">
+          <h3>Food <span class="text-success">Cart <i class="fa-solid fa-cart-shopping"></i></span></h3>
+          <p>Address : Lakhimpur Kheri,Utter Pradesh 262701 <br/>Phone : 7408826672 <br/>E-mail :
+           akashlmp7408@gmail.com </p>
+        </div>
+        <div class="col-sm-2 pt-4">
+          <p>Information<br/>About Us<br/>Checkout <br/>Contact</p>
+        </div>
+        <div class="col-sm-2 pt-4">
+          <p>My Account<br/>Updates<br/>Help Us <br/>Shopping Cart</p>
+        </div>
+        <div class="col-sm-4 pt-4">
+          
+          <h5>Join Our Teligram Now </h5><p>Get E-mail updates about our latest shop and<br/>
+           special offers</p>
+           <form class="d-flex" role="search">
+            <input class="form-control me-1" type="search" placeholder="Enter Your Mail" aria-label="Search">
+            <button class="btn text-bg-mycolor" type="submit">SUBSCRIBE</button>
+          </form>
+        </div>
+       
+        </div>
+        <div class="row bfooter"></div>
+        
+     
+    </div>
+    </body>
+</html>

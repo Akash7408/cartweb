@@ -1,0 +1,113 @@
+<html>
+    <head>
+<style>
+#box
+{
+    width: 350px;
+    background: linear-gradient(45deg,blue,skyblue);
+    padding: 15px;
+    min-height: 40px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    font-size: 22px;
+    color: white;
+}
+#header
+{
+    height: 45px;
+    width: 320px;
+    color: white;
+    text-align: center;
+    background: black;
+    line-height: 45px;
+}
+#left
+{
+    width: 160px;
+    height: 45px;
+    float: left;
+}
+#left
+{
+    width: 160px;
+    height: 45px;
+    float: left;
+}
+.txt
+{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.btn
+{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    background: black;
+    color: white;  
+}
+#reg,#login,#fpass
+{
+    display: none;
+}
+</style>
+    </head>
+    <body>
+    <div id="box">
+<div id="header">
+<div id="left" onclick="demo()">Login</div>
+<div id="Right" onclick="demo1()">Register</div>
+</div>
+<p id="reg">
+    Name<br/><input type="text" placeholder="Name" class="txt"/><br/>
+    Number<br/><input type="number" placeholder="mobile" class="txt"/><br/>
+    Email<br/><input type="email" placeholder="Email" class="txt"/><br/>
+    <br/><input type="button" value="save" class="btn"/><br/>
+</p>
+<p id="login">
+
+    UserId<br/><input type="email" placeholder="UserId.." class="txt"/><br/>
+    Email<br/><input type="password" placeholder="password" class="txt"/><br/>
+    <br/><input type="button" value="Login" class="btn"/><br/>
+    <a href="#" id="f" style="color:white" onclick="demo2()">Forgot password</a>
+</p>
+<p id="fpass">
+    Enter Your Mobile No.<br/><input type="number" placeholder="password" class="txt"/><br/>
+    <br/><input type="button" value="Sent Otp" class="btn"/><br/>
+</p>
+</div>
+       <script>
+        var login=document.getElementById("login")
+        var reg=document.getElementById("reg")
+        var fpass=document.getElementById("fpass")
+function demo()
+{
+    
+    login.style.display="block"
+    fpass.style.display="none"
+    reg.style.display="none"
+   
+}
+
+function demo1()
+{
+    
+    reg.style.display="block"
+    login.style.display="none"
+    fpass.style.display="none"
+}
+function demo2()
+{
+    
+    reg.style.display="none"
+    login.style.display="none"
+    fpass.style.display="block"
+}
+       </script>
+    </body>
+</html>
